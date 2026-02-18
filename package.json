@@ -1,0 +1,12 @@
+{
+    "name": "sql-learning-platform",
+    "private": true,
+    "engines": {
+        "node": "20.x"
+    },
+    "scripts": {
+        "client-install": "npm install --prefix client",
+        "server-install": "npm install --prefix server",
+        "install-all": "npm run client-install && npm run server-install"
+    }
+}
